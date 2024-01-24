@@ -1,54 +1,67 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family: outfit;
+    font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
+body {
     display: flex;
+    min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: hsl(212, 45%, 89%);
 }
 
-/* card css start */
-.card{
+.card {
+    margin: auto;
     width: 300px;
     height: 450px;
     padding-top: 25px;
     text-align: center;
     border-radius: 40px;
     background-color: #fff;
-
 }
 
-/* image css start */
-.qr-code{
+.qr-code {
     width: 70%;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-.heading{
+.heading {
     padding: 0 30px;
-    font-weight: 700; 
+    font-weight: 700;
     margin-bottom: 25px;
 }
 
-.text{
+.text {
     padding: 0 10px;
-    font-weight: 400; 
-    color: hsl(220, 15%, 55%); 
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
-
-
 
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
+    margin-bottom: 10px; 
+}
+
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 90%; 
+    }
+
+    .qr-code {
+        width: 100%; 
+    }
+
+    .heading {
+        font-size: 16px; 
+    }
+}
