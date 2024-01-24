@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: outfit;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* card css start */
+.card{
+    width: 300px;
+    height: 450px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #fff;
+
+}
+
+/* image css start */
+.qr-code{
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    padding: 0 30px;
+    font-weight: 700; 
+    margin-bottom: 25px;
+}
+
+.text{
+    padding: 0 10px;
+    font-weight: 400; 
+    color: hsl(220, 15%, 55%); 
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
